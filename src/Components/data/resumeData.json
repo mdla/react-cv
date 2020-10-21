@@ -2,7 +2,7 @@
   "main": {
     "name": "Mauro Dario Luna Ayala",
     "occupation": "Desarrollador Fullstack",
-    "description": "con experiencia en .NET. Buscandondo una posicion en la cual pueda seguir capacitandome en distintas tecnologias.",
+    "description": "con experiencia en .NET. Buscando una posición en la cual pueda seguir capacitándome en distintas tecnologías.",
     "image": "/images/profilepic.png",
     "bio": "Nacido en Quilmes",
     "contactmessage": "",
@@ -35,18 +35,18 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Desarrollador Fullstack",
     "education": [{
         "school": "Universidad de La Plata",
         "degree": "Licenciatura en informatica",
         "graduated": "",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": ""
       },
       {
         "school": "Tecnica N°4 Berazategui",
         "degree": "Tecnico en Informatica con Orientacion en redes.",
         "graduated": "Diciembre 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": ""
       }
     ],
     "work": [{
