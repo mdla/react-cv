@@ -15,10 +15,10 @@ class ProfilePic extends Component {
     render() {
         if (this.props)
             return <img className = "profile-pic"
-                    src = {this.props.path}
+                    src = {process.env.PUBLIC_URL + this.props.path}
                     alt = {this.props.alt}/>
         else
-            return <p> Vacio </p>
+            return <span> Vacio </span>
     }
 
 }

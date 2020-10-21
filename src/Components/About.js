@@ -7,7 +7,7 @@ class About extends Component {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var profilepic= "/images/"+this.props.data.image;
+      var profilepic= this.props.data.image;
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
@@ -23,7 +23,6 @@ class About extends Component {
       <div className="row">
          <div className="three columns">
             <ProfilePic path={profilepic} alt={"Foto Mauro Dario Luna Ayala"}></ProfilePic>
-            
          </div>
          <div className="nine columns main-col">
             <h2>Sobre mi</h2>
