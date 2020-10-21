@@ -7,7 +7,7 @@ class Testimonials extends Component {
     if(this.props.data){
       var testimonials = this.props.data.map(function(testimonials){
         return  <li key={testimonials.user}>
-           <ProfilePic path='/images/profilepic.png' alt='Fillipo'/>
+           <ProfilePic path={testimonials.image} alt='Fillipo'/>
             <blockquote>
                <p>{testimonials.text}</p>
                <cite>{testimonials.user}</cite>

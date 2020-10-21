@@ -3,7 +3,7 @@
     "name": "Mauro Dario Luna Ayala",
     "occupation": "Desarrollador Fullstack",
     "description": "con experiencia en .NET. Buscandondo una posicion en la cual pueda seguir capacitandome en distintas tecnologias.",
-    "image": "profilepic.png",
+    "image": "/images/profilepic.png",
     "bio": "Nacido en Quilmes",
     "contactmessage": "",
     "email": "mauro.dario.luna.ayala@gmail.com",
@@ -43,7 +43,7 @@
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school": "Tecnica N°4 Berazateguiu",
+        "school": "Tecnica N°4 Berazategui",
         "degree": "Tecnico en Informatica con Orientacion en redes.",
         "graduated": "Diciembre 2007",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
@@ -53,8 +53,24 @@
       "company": "VR4 S.A",
       "title": "Desarrollador Fullstack ",
       "years": "Agosto 2019 - Presente",
-      "description": "Desarrollo y mantenimiento de aplicaciones en .NET con front en Angular. Desarrollador RPA utilizando la herramienta UIPath."
-    }],
+      "description": "Mantenimiento de aplicaciones AngularJS. Mantenimiento ASP.NET MVC. Desarrollador RPA utilizando la herramienta UiPath."
+    },{
+      "company": "Capgemini",
+      "title": "Desarrollador Fullstack .NET",
+      "years": "Mayo 2018 - Septiembre 2018",
+      "description": "Mantenimiento de aplicaciones AngularJS. Mantenimiento servicios web API y WCF."
+    },{
+      "company": "Sistemas Esco",
+      "title": "Desarrollador .NET",
+      "years": "Mayo 2018 - Septiembre 2018",
+      "description": "Mantenimiento de aplicaciones Asp.Net. Implementación de servicios WCF. T-Sql"
+    },{
+      "company": "Pragma Consultores",
+      "title": "Desarrollador .NET",
+      "years": "Marzo 2014 - Junio 2016",
+      "description": "Creación desde 0 y mantenimiento de sitios web ASP.NET. Implementación de servicios WCF. Creación de aplicaciones AngularJS para consumos de servicios WCF. Creación de aplicaciones mobile utilizando Phonegap o Ionic. Aplicaciones en la nube Azure."
+    }    
+  ],
     "skills": [
       {
         "name": ".NET",
@@ -100,10 +116,12 @@
     ]
   },
   "testimonials": [{
+      "image": "/images/fillippo.png",
       "text": "Medio topu si lo ves con un ojo",
       "user": "Fillippo Marcano"
     },
     {
+      "image": "/images/patricio.png",
       "text": "Como desarrollador RPA es un buen catador de pizzas",
       "user": "Patricio Cainzos"
     }
