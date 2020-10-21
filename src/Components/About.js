@@ -23,7 +23,6 @@ class About extends Component {
       <div className="row">
          <div className="three columns">
             <ProfilePic path={profilepic} alt={"Foto Mauro Dario Luna Ayala"}></ProfilePic>
-            
          </div>
          <div className="nine columns main-col">
             <h2>Sobre mi</h2>
