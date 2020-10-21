@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProfilePic from './ProfilePic';
 
 class Testimonials extends Component {
   render() {
@@ -6,6 +7,7 @@ class Testimonials extends Component {
     if(this.props.data){
       var testimonials = this.props.data.map(function(testimonials){
         return  <li key={testimonials.user}>
+           <ProfilePic path='/images/profilepic.png' alt='Fillipo'/>
             <blockquote>
                <p>{testimonials.text}</p>
                <cite>{testimonials.user}</cite>
@@ -25,6 +27,7 @@ class Testimonials extends Component {
 
             <div className="ten columns flex-container">
                   <ul className="slides">
+                     
                       {testimonials}
                   </ul>
                </div>
