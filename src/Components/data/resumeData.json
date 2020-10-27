@@ -53,42 +53,57 @@
       "company": "VR4 S.A",
       "title": "Desarrollador Fullstack ",
       "years": "Agosto 2019 - Presente",
-      "description": "Mantenimiento de aplicaciones AngularJS. Mantenimiento ASP.NET MVC. Desarrollador RPA utilizando la herramienta UiPath."
+      "description": "Mantenimiento de aplicaciones AngularJS. Mantenimiento ASP.NET MVC. Desarrollador RPA utilizando la herramienta UiPath.",
+      "technologies":["WebApi","Angular","RPA-UiPath","SQL Server"]
     },{
       "company": "Capgemini",
       "title": "Desarrollador Fullstack .NET",
       "years": "Mayo 2018 - Septiembre 2018",
-      "description": "Mantenimiento de aplicaciones AngularJS. Mantenimiento servicios web API y WCF."
+      "description": "Mantenimiento de aplicaciones AngularJS. Mantenimiento servicios web API y WCF.",
+      "technologies":["WebApi","Angular","Oracle"]
     },{
       "company": "Sistemas Esco",
       "title": "Desarrollador .NET",
       "years": "Mayo 2018 - Septiembre 2018",
-      "description": "Mantenimiento de aplicaciones Asp.Net. Implementación de servicios WCF. T-Sql"
+      "description": "Mantenimiento de aplicaciones Asp.Net. Implementación de servicios WCF. T-Sql",
+      "technologies":["ASP.NET","WCF","WebApi","Angular","Sql Server","T-SQL"]
     },{
       "company": "Pragma Consultores",
       "title": "Desarrollador .NET",
       "years": "Marzo 2014 - Junio 2016",
-      "description": "Creación desde 0 y mantenimiento de sitios web ASP.NET. Implementación de servicios WCF. Creación de aplicaciones AngularJS para consumos de servicios WCF. Creación de aplicaciones mobile utilizando Phonegap o Ionic. Aplicaciones en la nube Azure."
+      "description": "Creación desde 0 y mantenimiento de sitios web ASP.NET. Implementación de servicios WCF. Creación de aplicaciones AngularJS para consumos de servicios WCF. Creación de aplicaciones mobile utilizando Phonegap o Ionic. Aplicaciones en la nube Azure.",
+      "technologies":["ASP.NET","NHibernate","ionic","Cordova","Angular","Sql Server"]
     }    
   ],
     "skills": [
       {
         "name": ".NET",
+        "comments": "Mantenimiento y desarrollo evolutivo",
         "type": "Programing",
+        "items": ["ASP.NET","WCF", "WebApi", "Entity Framework"],
         "level": "60%"
       },
       {
         "name": "Angular",
+        "comments": "Mantenimiento de aplicaciones de AngularJs y concimientos del framework Angular 2+",
+        "type": "Programing",
+        "level": "55%"
+      },
+      {
+        "name": "RPA",
+        "comments": "Desarrollo de RPA utilizando UiPath",
         "type": "Programing",
         "level": "55%"
       },
       {
         "name": "ReactJs",
+        "comments": "El sitio esta hecho con reactjs.",
         "type": "Programing",
         "level": "60 %"
       },
       {
         "name": "CSS",
+        "comments": "Conocimiento basico. Como base siempre utilice algun framework.",
         "type": "Programing",
         "level": "40%"
       },
@@ -109,12 +124,64 @@
       }
     ]
   },
-  "courses": {
-    "projects": [
-
-
+  "courses": 
+    [
+      {
+        "title":"UiPath",
+        "description":"Level 1 Fundation - Training",
+        "image":"/images/courses/uipath.png",
+        "link":"/files/level_1.pdf"
+      },
+      {
+        "title":"JAVA SE",
+        "description":"Fundamentos JAVA SE",
+        "image":"/images/courses/java_se.png",
+        "link":"/files/level_1.pdf"
+      },
+      {
+        "title":"JAVA EE",
+        "description":"Fundamentos JAVA EE",
+        "image":"/images/courses/java_Ee.png",
+        "link":"/files/level_1.pdf"
+      },
+      {
+        "title":"Fundamentos AWS",
+        "description":"Introducion a los servicios de Amazon",
+        "image":"/images/courses/amazonpng",
+        "link":"/files/level_1.pdf"
+      },
+      {
+        "title":"Azure IaaS",
+        "description":"Introducion a los servicios de Azure",
+        "image":"/images/courses/azure",
+        "link":"/files/level_1.pdf"
+      },
+      {
+        "title":"Xamarin Forms",
+        "description":"Introducion a Xamarin Forms",
+        "image":"/images/courses/xamarin",
+        "link":"/files/level_1.pdf"
+      },
+      {
+        "title":"NodeJS",
+        "description":"Conocimientos basicos en NodeJS.",
+        "image":"/images/courses/nodejs.png",
+        "link":"/files/level_1.pdf"
+      },
+      {
+        "title":"Fundamentos Docker",
+        "description":"Introduccion a los servicios de Azure",
+        "image":"/images/courses/xamarin",
+        "link":"/files/level_1.pdf"
+      },
+      {
+        "title":"Conocimientos en Android",
+        "description":"Introduccion a los servicios de Azure",
+        "image":"/images/courses/xamarin",
+        "link":"/files/level_1.pdf"
+      }
     ]
-  },
+  ,
   "testimonials": [{
       "image": "/images/fillippo.png",
       "text": "Medio topu si lo ves con un ojo",

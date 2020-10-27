@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 
-class Portfolio extends Component {
+class Courses extends Component {
   render() {
 
     if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
+      var courses = this.props.data.map(function(course){
+        ;
+        return <div key={course.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
+            <a href={course.link} title={course.title}>
+               <img alt={course.title} src={process.env.PUBLIC_URL + '/images/portfolio/resume-website.jpg'} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
+                 <h5>{course.title}</h5>
+                     <p>{course.description}</p>
                   </div>
                 </div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
@@ -30,10 +30,10 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Cursos</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+                {courses}
             </div>
           </div>
       </div>
@@ -42,4 +42,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Courses;
