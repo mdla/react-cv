@@ -2,9 +2,9 @@
   "main": {
     "name": "Mauro Dario Luna Ayala",
     "occupation": "Desarrollador Fullstack",
-    "description": "con experiencia en .NET. Buscando una posición en la cual pueda seguir capacitándome en distintas tecnologías.",
+    "description": "Con experiencia en .NET. Buscando una posición en la cual pueda trabajar en equipo y seguir capacitándome en distintas tecnologías. No me molesta capacitarme en distintos stack tecnológicos por lo contrario esta buenisimo.",
     "image": "/images/profilepic.png",
-    "bio": "Nacido en Quilmes",
+    "bio": "Quilmeño desde muy chico ya sabía que mi trabajo estaría orientado a la informática. Con estudios secundarios en una escuela técnica con orientación en Informática y posteriormente estudios universitarios en La Plata y en la UNAJ. Generalmente haciendo algún curso en Udemy.",
     "contactmessage": "",
     "email": "mauro.dario.luna.ayala@gmail.com",
     "phone": "11-36179601",
@@ -15,8 +15,8 @@
       "zip": "",
       "country": "Argentina"
     },
-    "website": "http://www.dev.com",
-    "resumedownload": "http://dev.com",
+    "website": "https://mdla.github.io/react-cv/",
+    "resumedownload": "/files/cv_mauro_dario_luna_ayala.pdf",
     "social": [{
         "name": "linkedin",
         "url": "https://ar.linkedin.com/in/mauro-dario-luna-ayala-14102534",
@@ -29,7 +29,7 @@
       },
       {
         "name": "skype",
-        "url": "http://skype.com",
+        "url": "https://join.skype.com/invite/yoRh7Inmre5g",
         "className": "fa fa-skype"
       }
     ]
@@ -38,13 +38,13 @@
     "skillmessage": "Desarrollador Fullstack",
     "education": [{
         "school": "Universidad de La Plata",
-        "degree": "Licenciatura en informatica",
+        "degree": "Licenciatura en informática",
         "graduated": "",
         "description": ""
       },
       {
-        "school": "Tecnica N°4 Berazategui",
-        "degree": "Tecnico en Informatica con Orientacion en redes.",
+        "school": "Técnica N°4 Berazategui",
+        "degree": "Técnico en Informática con Orientación en Redes",
         "graduated": "Diciembre 2007",
         "description": ""
       }
@@ -71,7 +71,7 @@
       "company": "Pragma Consultores",
       "title": "Desarrollador .NET",
       "years": "Marzo 2014 - Junio 2016",
-      "description": "Creación desde 0 y mantenimiento de sitios web ASP.NET. Implementación de servicios WCF. Creación de aplicaciones AngularJS para consumos de servicios WCF. Creación de aplicaciones mobile utilizando Phonegap o Ionic. Aplicaciones en la nube Azure.",
+      "description": "Creación desde 0 y mantenimiento de sitios web ASP.NET. Implementación de servicios WCF. Creación de aplicaciones AngularJS para consumos de servicios WCF. Creación de aplicaciones mobile utilizando Phonegap o Ionic.",
       "technologies":["ASP.NET","NHibernate","ionic","Cordova","Angular","Sql Server"]
     }    
   ],
@@ -85,7 +85,7 @@
       },
       {
         "name": "Angular",
-        "comments": "Mantenimiento de aplicaciones de AngularJs y concimientos del framework Angular 2+",
+        "comments": "Mantenimiento de aplicaciones de AngularJs y conocimientos del framework Angular 2+",
         "type": "Programing",
         "level": "55%"
       },
@@ -96,14 +96,14 @@
         "level": "55%"
       },
       {
-        "name": "ReactJs",
-        "comments": "El sitio esta hecho con reactjs.",
+        "name": "React",
+        "comments": "El sitio esta hecho con React.",
         "type": "Programing",
         "level": "60 %"
       },
       {
         "name": "CSS",
-        "comments": "Conocimiento basico. Como base siempre utilice algun framework.",
+        "comments": "Conocimiento básicos. Como base siempre utilice algun framework.",
         "type": "Programing",
         "level": "40%"
       },
@@ -135,61 +135,61 @@
       {
         "title":"JAVA SE",
         "description":"Fundamentos JAVA SE",
-        "image":"/images/courses/java_se.png",
+        "image":"/images/courses/java.png",
         "link":"/files/level_1.pdf"
       },
       {
         "title":"JAVA EE",
         "description":"Fundamentos JAVA EE",
-        "image":"/images/courses/java_Ee.png",
+        "image":"/images/courses/java.png",
         "link":"/files/level_1.pdf"
       },
       {
         "title":"Fundamentos AWS",
-        "description":"Introducion a los servicios de Amazon",
-        "image":"/images/courses/amazonpng",
+        "description":"Introducción a los servicios de Amazon",
+        "image":"/images/courses/amazon.png",
         "link":"/files/level_1.pdf"
       },
       {
         "title":"Azure IaaS",
-        "description":"Introducion a los servicios de Azure",
-        "image":"/images/courses/azure",
+        "description":"Introducción a los servicios de Azure",
+        "image":"/images/courses/azure.png",
         "link":"/files/level_1.pdf"
       },
       {
         "title":"Xamarin Forms",
-        "description":"Introducion a Xamarin Forms",
+        "description":"Introducción a Xamarin Forms",
         "image":"/images/courses/xamarin",
         "link":"/files/level_1.pdf"
       },
       {
         "title":"NodeJS",
-        "description":"Conocimientos basicos en NodeJS.",
-        "image":"/images/courses/nodejs.png",
+        "description":"Conocimientos básicos en NodeJS.",
+        "image":"/images/courses/node.png",
         "link":"/files/level_1.pdf"
       },
       {
         "title":"Fundamentos Docker",
-        "description":"Introduccion a los servicios de Azure",
-        "image":"/images/courses/xamarin",
+        "description":"Introducción a los servicios de Azure",
+        "image":"/images/courses/docker.png",
         "link":"/files/level_1.pdf"
       },
       {
         "title":"Conocimientos en Android",
-        "description":"Introduccion a los servicios de Azure",
-        "image":"/images/courses/xamarin",
+        "description":"Introducción a los servicios de Azure",
+        "image":"/images/courses/android.png",
         "link":"/files/level_1.pdf"
       }
     ]
   ,
   "testimonials": [{
       "image": "/images/fillippo.png",
-      "text": "Medio topu si lo ves con un ojo",
+      "text": "Lorem",
       "user": "Fillippo Marcano"
     },
     {
       "image": "/images/patricio.png",
-      "text": "Como desarrollador RPA es un buen catador de pizzas",
+      "text": "Ipsum",
       "user": "Patricio Cainzos"
     }
   ]

@@ -9,7 +9,7 @@ class Courses extends Component {
         return <div key={course.title} className="columns portfolio-item">
            <div className="item-wrap">
             <a href={course.link} title={course.title}>
-               <img alt={course.title} src={process.env.PUBLIC_URL + '/images/portfolio/resume-website.jpg'} />
+               <img alt={course.title} src={process.env.PUBLIC_URL + course.image} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{course.title}</h5>
@@ -24,7 +24,7 @@ class Courses extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="courses">
 
       <div className="row">
 
