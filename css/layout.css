@@ -295,6 +295,7 @@ ul#nav li.current a { color: #F06000; }
   	margin-top: 36px;
    list-style: none;
 }
+/*
 .bars li {
    position: relative;
   	margin-bottom: 60px;
@@ -302,6 +303,7 @@ ul#nav li.current a { color: #F06000; }
   	height: 42px;
   	border-radius: 3px;
 }
+*/
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
