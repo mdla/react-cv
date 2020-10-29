@@ -4,7 +4,7 @@
     "occupation": "Desarrollador Fullstack",
     "description": "Con experiencia en .NET. Buscando una posición en la cual pueda trabajar en equipo y seguir capacitándome en distintas tecnologías. No me molesta capacitarme en distintos stack tecnológicos por lo contrario esta buenisimo.",
     "image": "/images/profilepic.png",
-    "bio": "Quilmeño desde muy chico ya sabía que mi trabajo estaría orientado a la informática. Con estudios secundarios en una escuela técnica con orientación en Informática y posteriormente estudios universitarios en La Plata y en la UNAJ. Generalmente haciendo algún curso en Udemy.",
+    "bio": "Quilmeño desde muy chico ya sabía que mi trabajo estaría orientado a la informática. Con estudios secundarios en una escuela técnica con orientación en Redes y posteriormente estudios universitarios en La Plata y en la UNAJ. Generalmente haciendo algún curso en Udemy.",
     "contactmessage": "",
     "email": "mauro.dario.luna.ayala@gmail.com",
     "phone": "11-36179601",
@@ -73,8 +73,63 @@
       "years": "Marzo 2014 - Junio 2016",
       "description": "Creación desde 0 y mantenimiento de sitios web ASP.NET. Implementación de servicios WCF. Creación de aplicaciones AngularJS para consumos de servicios WCF. Creación de aplicaciones mobile utilizando Phonegap o Ionic.",
       "technologies":["ASP.NET","NHibernate","ionic","Cordova","Angular","Sql Server"]
-    }    
-  ],
+    }],
+    "courses": [
+      {
+        "title":"UiPath",
+        "description":"Level 1 Fundation - Training",
+        "image":"/images/courses/uipath.png",
+        "link":"https://mdla.github.io/react-cv/files/Certificacion Oficial - Mauro Dario Luna Ayala.pdf"
+      },
+      {
+        "title":"NodeJS",
+        "description":"Conocimientos básicos en NodeJS.",
+        "image":"/images/courses/node.png",
+        "link":"https://platzi.com/@maurolunaayala/curso/1151-nodejs/diploma/detalle/"
+      },
+      {
+        "title":"JAVA SE",
+        "description":"Fundamentos JAVA SE",
+        "image":"/images/courses/java.png",
+        "link":"https://platzi.com/@maurolunaayala/curso/1236-java-avanzado/diploma/detalle/"
+      },
+      {
+        "title":"JAVA EE",
+        "description":"Fundamentos JAVA EE",
+        "image":"/images/courses/java.png",
+        "link":"https://platzi.com/@maurolunaayala/curso/1110-jee/diploma/detalle/"
+      },
+      {
+        "title":"Fundamentos AWS Cloud",
+        "description":"Introducción a los servicios de Amazon",
+        "image":"/images/courses/amazon.png",
+        "link":"https://platzi.com/@maurolunaayala/curso/1323-aws-cloud/diploma/detalle/"
+      },
+      {
+        "title":"Azure IaaS",
+        "description":"Introducción a los servicios de Azure",
+        "image":"/images/courses/azure.png",
+        "link":"https://platzi.com/@maurolunaayala/curso/1156-azure/diploma/detalle/"
+      },
+      {
+        "title":"Xamarin Forms",
+        "description":"Introducción a Xamarin Forms",
+        "image":"/images/courses/xamarin",
+        "link":"https://platzi.com/@maurolunaayala/curso/1314-xamarin-forms/diploma/detalle/"
+      },
+      {
+        "title":"Fundamentos Docker",
+        "description":"Manejo básico de contenedores",
+        "image":"/images/courses/docker.png",
+        "link":"https://platzi.com/@maurolunaayala/curso/1432-docker/diploma/detalle/"
+      },
+      {
+        "title":"Conocimientos en Android",
+        "description":"Introducción a android. Actualmente estudiando flutter",
+        "image":"/images/courses/android.png",
+        "link":"https://platzi.com/@maurolunaayala/curso/1264-tecnico-android/diploma/detalle/"
+      }
+    ],
     "skills": [
       {
         "name": ".NET",
@@ -124,64 +179,6 @@
       }
     ]
   },
-  "courses": 
-    [
-      {
-        "title":"UiPath",
-        "description":"Level 1 Fundation - Training",
-        "image":"/images/courses/uipath.png",
-        "link":"/files/level_1.pdf"
-      },
-      {
-        "title":"JAVA SE",
-        "description":"Fundamentos JAVA SE",
-        "image":"/images/courses/java.png",
-        "link":"/files/level_1.pdf"
-      },
-      {
-        "title":"JAVA EE",
-        "description":"Fundamentos JAVA EE",
-        "image":"/images/courses/java.png",
-        "link":"/files/level_1.pdf"
-      },
-      {
-        "title":"Fundamentos AWS",
-        "description":"Introducción a los servicios de Amazon",
-        "image":"/images/courses/amazon.png",
-        "link":"/files/level_1.pdf"
-      },
-      {
-        "title":"Azure IaaS",
-        "description":"Introducción a los servicios de Azure",
-        "image":"/images/courses/azure.png",
-        "link":"/files/level_1.pdf"
-      },
-      {
-        "title":"Xamarin Forms",
-        "description":"Introducción a Xamarin Forms",
-        "image":"/images/courses/xamarin",
-        "link":"/files/level_1.pdf"
-      },
-      {
-        "title":"NodeJS",
-        "description":"Conocimientos básicos en NodeJS.",
-        "image":"/images/courses/node.png",
-        "link":"/files/level_1.pdf"
-      },
-      {
-        "title":"Fundamentos Docker",
-        "description":"Introducción a los servicios de Azure",
-        "image":"/images/courses/docker.png",
-        "link":"/files/level_1.pdf"
-      },
-      {
-        "title":"Conocimientos en Android",
-        "description":"Introducción a los servicios de Azure",
-        "image":"/images/courses/android.png",
-        "link":"/files/level_1.pdf"
-      }
-    ]
-  ,
   "testimonials": [{
       "image": "/images/fillippo.png",
       "text": "Lorem",

@@ -6,7 +6,7 @@ class Courses extends Component {
     if(this.props.data){
       var courses = this.props.data.map(function(course){
         ;
-        return <div key={course.title} className="columns portfolio-item">
+        return <div className="columns portfolio-item">
            <div className="item-wrap">
             <a href={course.link} title={course.title}>
                <img alt={course.title} src={process.env.PUBLIC_URL + course.image} />

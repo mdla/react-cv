@@ -9,15 +9,12 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-import Courses from './Components/Courses';
-import Testimonials from './Components/Testimonials';
 
 class App extends Component {
 
   constructor(props){
     super(props);
-    this.state = {
-      foo: 'bar',
+    this.state = {      
       resumeData: {}
     };
     ReactGA.initialize('216007419');
@@ -39,8 +36,6 @@ class App extends Component {
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        <Courses data={this.state.resumeData.courses}/>
-        <Testimonials data={this.state.resumeData.testimonials}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
