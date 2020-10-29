@@ -17,7 +17,7 @@ class App extends Component {
     this.state = {      
       resumeData: {}
     };
-    ReactGA.initialize('216007419');
+    ReactGA.initialize('G-FBHLEHD374');
     ReactGA.pageview(window.location.pathname);
 
   }
